@@ -6,4 +6,4 @@ Integrantes da equipa:
 - Juliana
 - Rui
 
-  [Link do Trello:] (https://trello.com/b/TYzZio4X/%F0%9F%A6%85-grupo-eagles)
+  Clique para para aceder ao Trello! <a href= "https://trello.com/b/TYzZio4X/%F0%9F%A6%85-grupo-eagles"> </a>
