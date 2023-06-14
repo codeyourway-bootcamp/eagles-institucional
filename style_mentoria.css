@@ -1,0 +1,7 @@
+body{font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(255, 250, 244);}
+h1{display:flex;
+    justify-content: center;
+    color: rgb(210, 83, 128)}
+    p{color: #F6C391;
+    }
