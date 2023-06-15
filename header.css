@@ -1,69 +1,31 @@
-header {
+.header-principal {
   background-color: #e5dbd4;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   border-radius: 30px;
-  padding: 0 20px 0 20px;
-}
-a {
-  text-decoration: none;
-  color: inherit;
-}
-h2 {
-  color: rgb(210, 83, 128);
-  font-family: Monotype Corsiva;
+  padding: 0 10px 0 10px;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(255, 250, 244);
 }
-h1 {
-  display: flex;
-  justify-content: center;
-  color: rgb(210, 83, 128);
-  font-family: Monotype Corsiva;
-  font-size: xx-large;
-}
-p {
-  color: #f6c391;
-}
-h3 {
-  color: #e08e6d;
-}
 
-li {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.listaheader {
   color: #f6c391;
   text-align: center;
   list-style: none;
 }
-section {
-  text-align: center;
-  padding: 0 200px;
-}
-footer {
-  font-size: x-small;
-  text-align: center;
-  color: rgb(210, 83, 128);
-  background-color: #e5dbd4;
-  display: flex;
-  border-radius: 30px;
-  padding: 0 20px 0 20px;
-}
-
 #current-page {
   background-color: #f6c391;
   color: rgb(210, 83, 128);
 }
-.logo {
-  border-radius: 40%;
-}
-.Nome {
-  display: flex;
-}
-
-.container-navegacao {
+.container-navegacao2 {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -73,12 +35,11 @@ footer {
   max-width: 1200px;
   width: 100%;
 }
-
-.container-navegacao:first-child {
+.container-navegacao2:first-child {
   max-width: 767px;
   width: 100%;
 }
-.navegacao-interna {
+.navegacao-interna2 {
   display: flex;
   padding: 50px;
   list-style: none;
@@ -86,7 +47,7 @@ footer {
   max-width: 767px;
   width: 100%;
 }
-.navegacao-interna > li {
+.navegacao-interna2 > li {
   font-weight: 500;
   font-size: 20px;
   line-height: 26px;
@@ -97,7 +58,27 @@ footer {
   border-radius: 5px;
   color: #f6c391;
 }
-.navegacao-externa {
+.navegacao-externa2 {
   padding: 50px;
   margin: 0 10px;
+}
+.logo {
+  border-radius: 40%;
+}
+.Nome {
+  display: flex;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 250, 244);
+}
+footer {
+  margin-top: 20px;
+  font-size: x-small;
+  text-align: center;
+  color: rgb(210, 83, 128);
+  background-color: #e5dbd4;
+  display: flex;
+  border-radius: 30px;
+  padding: 0 20px 0 20px;
 }
