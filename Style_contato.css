@@ -36,6 +36,12 @@ h2{   color: rgb(210, 83, 128);
     max-width: 767px;
     width: 100%;
 }
+@media (max-width:772px) {
+    .navegacao-interna {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
 .navegacao-interna > li{
     font-weight: 500;
     font-size: 20px;
