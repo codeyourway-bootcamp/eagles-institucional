@@ -2,22 +2,19 @@ header {
     background-color:#E5DBD4;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-        align-items: center;
-        border-radius: 30px;
         padding: 0 20px 0 20px;
+        max-width: 3057px;
+        width: 100%
 }
 #current-page{background-color: #F6C391;
     color:rgb(210, 83, 128);}
 .logo{border-radius: 40%;}
-.Nome{display: flex;}
 a{ text-decoration: none;
 color: inherit}
 h2{   color: rgb(210, 83, 128);
     font-family: Monotype Corsiva;}
 .container-navegacao {
     display: flex;
-    flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
     align-items: center;
@@ -25,17 +22,11 @@ h2{   color: rgb(210, 83, 128);
     max-width: 1200px;
     width: 100%;
 }
-
-.container-navegacao:first-child {
-    max-width: 767px;
-    width: 100%;}
 .navegacao-interna {
     display: flex;
-    padding: 50px;
+    padding: px50;
     list-style: none;
     gap: 50px;
-    max-width: 767px;
-    width: 100%;
 }
 .navegacao-interna > li{
     font-weight: 500;
@@ -50,27 +41,19 @@ h2{   color: rgb(210, 83, 128);
 
 .navegacao-externa {
     padding: 50px;
-    margin: 0 10px;
+    margin: 0 10pxpx;
 }
 body{font-family: Arial, Helvetica, sans-serif;
 background-color: rgb(255, 250, 244);}
-h1{display:flex;
-    justify-content: center;
-    color: rgb(210, 83, 128);
-font-family: Monotype Corsiva;
-font-size: xx-large;}
-    p{color: #F6C391;
-    }
-    h3{color:#E08E6D}
-
-    li{color: #F6C391;
-    text-align: center;
-list-style: none;}
-    section{text-align: center;
-        padding: 0 200px;}
+section{display: flex;
+justify-content: center;
+padding: 20px;}
+li{list-style: none;
+    border-radius: 30px;
+background-color: #D25380;}
+ .Renata{border-radius: 50%;
+width: 300px;}
 
     footer{font-size: x-small;text-align: center; color: rgb(210, 83, 128);background-color: #e5dbd4;
-        display: flex;
-        border-radius: 30px;
-        padding: 0 20px 0 20px;
-    }
+        max-width: 3057px;
+        width: 100%}
