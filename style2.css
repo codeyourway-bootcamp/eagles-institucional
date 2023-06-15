@@ -1,6 +1,5 @@
 html {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: #ece7e2;
 }
 
 ul {
@@ -98,12 +97,6 @@ footer {
   justify-content: center;
 }
 
-body {
-  min-height: 98vh;
-  display: flex;
-  flex-direction: column;
-}
-
 .texto,
 .conteiner-imagem {
   display: flex;
@@ -135,5 +128,5 @@ h4 {
   justify-content: center;
   color: rgb(210, 83, 128);
   font-family: Monotype Corsiva;
-  font-size: xx-large;
+  font-size: 1.5em;
 }
