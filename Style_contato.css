@@ -2,19 +2,21 @@ header {
     background-color:#E5DBD4;
     display: flex;
     justify-content: space-between;
-        padding: 0 20px 0 20px;
-        max-width: 3057px;
-        width: 100%
+    flex-wrap: wrap;
+        align-items: center;
+        border-radius: 30px;
 }
 #current-page{background-color: #F6C391;
     color:rgb(210, 83, 128);}
 .logo{border-radius: 40%;}
+.Nome{display: flex;}
 a{ text-decoration: none;
 color: inherit}
 h2{   color: rgb(210, 83, 128);
     font-family: Monotype Corsiva;}
 .container-navegacao {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
     align-items: center;
@@ -22,11 +24,17 @@ h2{   color: rgb(210, 83, 128);
     max-width: 1200px;
     width: 100%;
 }
+
+.container-navegacao:first-child {
+    max-width: 767px;
+    width: 100%;}
 .navegacao-interna {
     display: flex;
-    padding: px50;
+    padding: 50px;
     list-style: none;
     gap: 50px;
+    max-width: 767px;
+    width: 100%;
 }
 .navegacao-interna > li{
     font-weight: 500;
@@ -41,19 +49,37 @@ h2{   color: rgb(210, 83, 128);
 
 .navegacao-externa {
     padding: 50px;
-    margin: 0 10pxpx;
+    margin: 0 10px;
 }
 body{font-family: Arial, Helvetica, sans-serif;
-background-color: rgb(255, 250, 244);}
-section{display: flex;
-justify-content: center;
-padding: 20px;}
+background-color: rgb(255, 250, 244);
+min-height: 98vh;
+display: flex;
+flex-direction: column;}
+h1{display:flex;
+    justify-content: center;
+    color: rgb(210, 83, 128);
+font-family: Monotype Corsiva;
+font-size: xx-large;}
 li{list-style: none;
     border-radius: 30px;
-background-color: #D25380;}
+    padding: 5PX;
+background-color: #D25380;
+color: #F6C391;}
  .Renata{border-radius: 50%;
 width: 300px;}
+.CONTAINER-CONTATO {display: flex;
+flex-direction: column;
+align-items: center;
+margin: 100px;}
 
-    footer{font-size: x-small;text-align: center; color: rgb(210, 83, 128);background-color: #e5dbd4;
-        max-width: 3057px;
-        width: 100%}
+footer{font-size: x-small; color: rgb(210, 83, 128);background-color: #e5dbd4;
+    display: flex;
+    border-radius: 30px;
+    text-align: center;
+  
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+  }
+ 
